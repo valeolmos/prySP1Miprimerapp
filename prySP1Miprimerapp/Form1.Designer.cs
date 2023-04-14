@@ -42,7 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -148,7 +148,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(139, 27);
+            this.textBox1.Location = new System.Drawing.Point(151, 28);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(221, 29);
             this.textBox1.TabIndex = 1;
@@ -157,21 +157,21 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(145, 24);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(229, 29);
+            this.textBox2.Size = new System.Drawing.Size(221, 29);
             this.textBox2.TabIndex = 3;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(166, 79);
+            this.textBox3.Location = new System.Drawing.Point(145, 78);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(207, 29);
+            this.textBox3.Size = new System.Drawing.Size(221, 29);
             this.textBox3.TabIndex = 4;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(131, 135);
+            this.textBox4.Location = new System.Drawing.Point(145, 129);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(241, 29);
+            this.textBox4.Size = new System.Drawing.Size(221, 29);
             this.textBox4.TabIndex = 5;
             // 
             // label7
@@ -188,33 +188,33 @@
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.Info;
             this.groupBox4.Controls.Add(this.textBox5);
-            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.lbl);
             this.groupBox4.Location = new System.Drawing.Point(37, 502);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(510, 97);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
             // 
-            // label8
+            // lbl
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(20, 28);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 24);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "MONTO";
+            this.lbl.AutoSize = true;
+            this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl.Location = new System.Drawing.Point(20, 28);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(87, 24);
+            this.lbl.TabIndex = 0;
+            this.lbl.Text = "MONTO";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(141, 30);
+            this.textBox5.Location = new System.Drawing.Point(137, 30);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(222, 29);
+            this.textBox5.Size = new System.Drawing.Size(221, 29);
             this.textBox5.TabIndex = 1;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.BackColor = System.Drawing.Color.LightCoral;
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(107, 621);
             this.button1.Name = "button1";
@@ -225,10 +225,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Location = new System.Drawing.Point(330, 625);
+            this.button2.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button2.Location = new System.Drawing.Point(330, 621);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(160, 51);
+            this.button2.Size = new System.Drawing.Size(160, 55);
             this.button2.TabIndex = 7;
             this.button2.Text = "GRABAR";
             this.button2.UseVisualStyleBackColor = false;
@@ -237,10 +237,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 720);
+            this.ClientSize = new System.Drawing.Size(594, 704);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GESTION DE GASTOS";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -260,7 +260,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox4;
