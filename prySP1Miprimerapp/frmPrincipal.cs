@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prySP1Miprimerapp
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : Form
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
@@ -35,6 +35,12 @@ namespace prySP1Miprimerapp
         private void groupBox3_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Alacena ventanaAlacena = new Alacena();
+            ventanaAlacena.ShowDialog();
         }
     }
 }
